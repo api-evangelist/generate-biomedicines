@@ -1,0 +1,107 @@
+aid: generate-biomedicines
+name: Generate Biomedicines
+description: >-
+  Generate Biomedicines is a Somerville, Massachusetts therapeutics company
+  pioneering Generative Biology, a machine-learning-driven approach to de novo
+  protein design across antibodies, peptides, enzymes, and gene therapies.
+  Founded out of Flagship Pioneering and chaired by Noubar Afeyan, the company
+  trains generative models on the full compendium of natural protein structures
+  and sequences plus proprietary wet-lab data to design novel protein
+  therapeutics computationally rather than by trial-and-error discovery. Its
+  open-source flagship is Chroma, a programmable diffusion-based generative
+  model for joint protein structure and sequence design published in Nature 2023
+  ("Illuminating protein space with a programmable generative model",
+  doi:10.1038/s41586-023-06728-8) and released on GitHub under Apache 2.0 with
+  pretrained weights available under a custom Chroma Parameters License (free
+  for academic and nonprofit use). Chroma uses equivariant graph neural
+  networks, diffusion modeling, and conditional random fields to sample
+  all-atom protein structures with sub-quadratic complexity, supporting
+  conditional generation via composable Conditioner modules for symmetry,
+  substructure, shape, and secondary-structure constraints. The internal
+  Generate Platform iterates on a "generate, build, measure, learn" loop that
+  pairs in-silico design with high-throughput protein synthesis and
+  characterization; the company reports having generated, built, and tested
+  more than 42,000 proteins. Generate Biomedicines has platform collaborations
+  with Amgen (six programs, January 2022) and Novartis (multiple programs,
+  September 2024) and a CAR T collaboration with Roswell Park. Its clinical
+  pipeline is led by GB-0895, a long-acting anti-TSLP antibody for severe
+  asthma now in Phase 3 (SOLAIRIA study) with a parallel Phase 1 in COPD, plus
+  preclinical programs GB-4362 (anti-free-MMAE for ADC oncology safety) and
+  GB-5267 (MUC16 armored CAR T for ovarian cancer). The company priced its
+  initial public offering in February 2026. Revenue derives from drug
+  development, partner collaborations, and (for Chroma) commercial weights
+  licensing; there is no public developer REST/HTTPS API or SDK for the
+  Generate Platform itself — Chroma is consumed as a Python library installed
+  via pip with model weights downloaded from chroma-weights.generatebiomedicines.com
+  after registering for an API key.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Generative Biology
+  - Protein Design
+  - De Novo Design
+  - Diffusion Models
+  - Antibodies
+  - Drug Discovery
+  - Therapeutics
+  - Machine Learning
+  - Biotechnology
+  - Chroma
+  - Foundation Models
+  - Equivariant Neural Networks
+  - Flagship Pioneering
+url: https://raw.githubusercontent.com/api-evangelist/generate-biomedicines/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://generatebiomedicines.com
+  - type: Portal
+    url: https://generatebiomedicines.com
+  - type: Platform
+    url: https://generatebiomedicines.com/platform
+  - type: GenerativeBiology
+    url: https://generatebiomedicines.com/generative-biology
+  - type: Pipeline
+    url: https://generatebiomedicines.com/pipeline
+  - type: AboutUs
+    url: https://generatebiomedicines.com/about-us
+  - type: Newsroom
+    url: https://generatebiomedicines.com/media-center
+  - type: NewsReleases
+    url: https://generatebiomedicines.com/media-center?type=newsReleases
+  - type: Blog
+    url: https://generatebiomedicines.com/media-center?type=blogPosts
+  - type: MediaHighlights
+    url: https://generatebiomedicines.com/media-center?type=mediaHighlights
+  - type: Investors
+    url: https://investors.generatebiomedicines.com
+  - type: Careers
+    url: https://generatebiomedicines.com/careers
+  - type: Contact
+    url: https://generatebiomedicines.com/contact
+  - type: GitHubOrganization
+    url: https://github.com/generatebio
+  - type: OpenSource
+    url: https://github.com/generatebio/chroma
+  - type: SDK
+    url: https://pypi.org/project/generate-chroma/
+    name: Chroma Python package (generate-chroma)
+  - type: Paper
+    url: https://www.nature.com/articles/s41586-023-06728-8
+    name: 'Illuminating protein space with a programmable generative model (Nature, 2023)'
+  - type: ModelWeights
+    url: https://chroma-weights.generatebiomedicines.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/generate-biomedicines
+  - type: Twitter
+    url: https://twitter.com/generatebio
+  - type: YouTube
+    url: https://www.youtube.com/@generatebiomedicines
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
