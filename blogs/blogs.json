@@ -3,13 +3,10 @@
   "feeds": [
     {
       "source": "https://generatebiomedicines.com/media-center?type=blogPosts",
-      "error": "URLError"
-    },
-    {
-      "source": "https://generatebiomedicines.com/media-center?type=newsReleases",
-      "error": "URLError"
+      "saved": 0,
+      "error": "HTTP 403 on blog listing"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:43:37Z",
+  "post_count": 0
 }

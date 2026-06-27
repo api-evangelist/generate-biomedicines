@@ -88,7 +88,7 @@ common:
     url: https://github.com/generatebio
   - type: OpenSource
     url: https://github.com/generatebio/chroma
-  - type: SDK
+  - type: SDKs
     url: https://pypi.org/project/generate-chroma/
     name: Chroma Python package (generate-chroma)
   - type: Paper
