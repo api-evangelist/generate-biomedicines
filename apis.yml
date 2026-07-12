@@ -58,6 +58,8 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/generate-biomedicines-domain-security.yml
   - type: Website
     url: https://generatebiomedicines.com
   - type: Portal
