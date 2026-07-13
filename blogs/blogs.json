@@ -2,11 +2,10 @@
   "repo": "generate-biomedicines",
   "feeds": [
     {
-      "source": "https://generatebiomedicines.com/media-center?type=blogPosts",
-      "saved": 0,
-      "error": "HTTP 403 on blog listing"
+      "source": "https://generatebiomedicines.com/media-center?type=newsReleases",
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:43:37Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
