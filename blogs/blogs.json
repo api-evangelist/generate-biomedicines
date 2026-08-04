@@ -2,10 +2,20 @@
   "repo": "generate-biomedicines",
   "feeds": [
     {
+      "source": "https://generatebiomedicines.com/feed/",
+      "feed_url": "https://generatebiomedicines.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://generatebiomedicines.com/media-center?type=newsReleases",
-      "error": "HTTPError"
+      "feed_url": "https://generatebiomedicines.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
-  "fetched": "2026-07-11T11:50:51Z",
-  "post_count": 0
+  "fetched": "2026-08-01T15:49:00Z",
+  "post_count": 1
 }
