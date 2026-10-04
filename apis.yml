@@ -68,7 +68,7 @@ tags:
   - Antibodies
   - Drug Discovery
   - Therapeutics
-  - Machine-Learning
+  - Machine Learning
   - Biotechnology
   - Chroma
   - Foundation Models
@@ -88,6 +88,7 @@ tags_raw:
   - Foundation Models
   - Equivariant Neural Networks
   - Flagship Pioneering
+  - Machine-Learning
 url: https://raw.githubusercontent.com/api-evangelist/generate-biomedicines/refs/heads/main/apis.yml
 created: '2026-05-24'
 modified: '2026-05-24'
