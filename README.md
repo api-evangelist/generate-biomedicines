@@ -1,4 +1,4 @@
-# generate-biomedicines
+# Generate Biomedicines
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Generate Biomedicines — Somerville, MA generative-biology company designing de novo proteins with the Chroma diffusion model and the internal Generate Platform; Flagship Pioneering-founded, IPO'd Feb 2026, lead program GB-0895 (anti-TSLP, Phase 3).
+Generate Biomedicines is a Somerville, Massachusetts therapeutics company pioneering Generative Biology, a machine-learning-driven approach to de novo protein design across antibodies, peptides, enzymes, and gene therapies. Founded out of Flagship Pioneering and chaired by Noubar Afeyan, the company trains generative models on the full compendium of natural protein structures and sequences plus proprietary wet-lab data to design novel protein therapeutics computationally rather than by trial-and-error discovery. Its open-source flagship is Chroma, a programmable diffusion-based generative model for joint protein structure and sequence design published in Nature 2023 ("Illuminating protein space with a programmable generative model", doi:10.1038/s41586-023-06728-8) and released on GitHub under Apache 2.0 with pretrained weights available under a custom Chroma Parameters License (free for academic and nonprofit use). Chroma uses equivariant graph neural networks, diffusion modeling, and conditional random fields to sample all-atom protein structures with sub-quadratic complexity, supporting conditional generation via composable Conditioner modules for symmetry, substructure, shape, and secondary-structure constraints. The internal Generate Platform iterates on a "generate, build, measure, learn" loop that pairs in-silico design with high-throughput protein synthesis and characterization; the company reports having generated, built, and tested more than 42,000 proteins. Generate Biomedicines has platform collaborations with Amgen (six programs, January 2022) and Novartis (multiple programs, September 2024) and a CAR T collaboration with Roswell Park. Its clinical pipeline is led by GB-0895, a long-acting anti-TSLP antibody for severe asthma now in Phase 3 (SOLAIRIA study) with a parallel Phase 1 in COPD, plus preclinical programs GB-4362 (anti-free-MMAE for ADC oncology safety) and GB-5267 (MUC16 armored CAR T for ovarian cancer). The company priced its initial public offering in February 2026. Revenue derives from drug development, partner collaborations, and (for Chroma) commercial weights licensing; there is no public developer REST/HTTPS API or SDK for the Generate Platform itself — Chroma is consumed as a Python library installed via pip with model weights downloaded from chroma-weights.generatebiomedicines.com after registering for an API key.
+
+**Areas:** Generative Biology · Protein Design · De Novo Design · Diffusion Models · Antibodies · Drug Discovery · Therapeutics · Machine Learning · Biotechnology · Chroma · Foundation Models · Equivariant Neural Networks
+
+## Generate Biomedicines on APIs.io
+
+Everything profiled for Generate Biomedicines is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/generate-biomedicines/](https://apis.io/providers/generate-biomedicines/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Generate Biomedicines Domain Security](https://apis.io/security/generate-biomedicines/generate-biomedicines-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://generatebiomedicines.com)
+- [Blog](https://generatebiomedicines.com/media-center?type=blogPosts)
+- [GitHub](https://github.com/generatebio)
+
+## API Evangelist rating
+
+**Kin Score 7.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/generate-biomedicines/](https://apis.io/providers/generate-biomedicines/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Generate Biomedicines: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/generate-biomedicines/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
